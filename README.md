@@ -58,7 +58,7 @@ conda activate pde4b-env
 3. Launch Jupyter:
 
 ```bash
-jupyter notebook Discovery-of-Selective-PDE4B-Inhibitors.ipynb
+jupyter notebook PDE4B_ML_Pipeline_Reproducible.ipynb
 ```
 
 5. Run all cells in order. The first cell will create the required `data/`, `outputs/`, and `models/` directories automatically.
@@ -94,7 +94,6 @@ Structure-based drug design steps (molecular docking, MM-GBSA, MD simulation) we
 | LOTUS compounds screened | 276,518 |
 | Predicted strong inhibitors | 119,698 |
 | After drug-likeness filtering | 14,210 |
-| Top lead compound | LTS0048837 |
 
 ---
 
