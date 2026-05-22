@@ -13,7 +13,7 @@ The pipeline integrates ligand-based ML screening with SHAP interpretability to 
 ## Repository Structure
 
 ```
-PDE4B-Inhibitor-Discovery/
+Discovery-of-Selective-PDE4B-Inhibitors/
 │
 ├── data/                          # Input data (not tracked by git — see below)
 │   ├── PDE4B_Data.csv             # ChEMBL PDE4B bioactivity data
