@@ -4,9 +4,7 @@
 
 This repository contains the complete machine learning pipeline for the manuscript:
 
-> **"Computational Design of Novel Selective Phosphodiesterase 4B Inhibitors from Natural Compounds: An Integrated Machine Learning and Structure-Based Drug Discovery Approach"**
->
-> [Author Names] — *[Journal Name]*, [Year]
+> **"Computational Design of Novel Selective Phosphodiesterase 4B Inhibitors from Natural Products: An Integrated Machine Learning and Structure-Based Drug Discovery Approach"**
 
 The pipeline integrates ligand-based ML screening with SHAP interpretability to prioritize PDE4B-active natural product candidates from the LOTUS database for downstream structure-based drug design.
 
@@ -142,9 +140,9 @@ See `requirements.txt` for the full list. Key packages:
 If you use this code, please cite:
 
 ```
-[Author Names]. Computational Design of Novel Selective Phosphodiesterase 4B Inhibitors
-from Natural Compounds: An Integrated Machine Learning and Structure-Based Drug Discovery
-Approach. [Journal], [Year]. DOI: [DOI]
+Computational Design of Novel Selective Phosphodiesterase 4B Inhibitors from Natural Products: An Integrated Machine Learning and Structure-Based Drug Discovery Approach
+Samson Ayorinde Oni, Moyege Daniel Oyemomi, Osho Adebowale, Abdulfatai Abdulmalik
+bioRxiv 2026.05.16.725619; doi: https://doi.org/10.64898/2026.05.16.725619
 ```
 
 ---
