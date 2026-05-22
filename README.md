@@ -19,8 +19,6 @@ Discovery-of-Selective-PDE4B-Inhibitors/
 │   ├── PDE4B_Data.csv             # ChEMBL PDE4B bioactivity data
 │   └── LOTUS_DB.smi               # LOTUS natural product SMILES
 │
-├── outputs/                       # Generated outputs (predictions, figures)
-│   └── ...
 │
 ├── models/                        # Saved trained model
 │   └── best_pde4_model_with_features.pkl
@@ -32,41 +30,21 @@ Discovery-of-Selective-PDE4B-Inhibitors/
 └── README.md
 ```
 
----
-
-## Data Requirements
-
-The `data/` folder is not tracked by git due to file size. Before running the notebook, download the following files and place them in the `data/` directory:
-
-### 1. PDE4B Bioactivity Data (`PDE4B_Data.csv`)
-- Source: [ChEMBL Database](https://www.ebi.ac.uk/chembl/target/CHEMBL275)
-- Target: Phosphodiesterase 4B (CHEMBL275)
-- Filter: IC50 activity data only
-- Download format: CSV
-- Required columns: `Molecule ChEMBL ID`, `Smiles`, `pChEMBL Value`
-
-### 2. LOTUS Natural Product Database (`LOTUS_DB.smi`)
-- Source: [LOTUS Database](https://lotus.naturalproducts.net/download)
-- Download: SMILES file (.smi format)
-- Version used in this study: 276,518 compounds (accessed [DATE])
-
----
-
 ## Installation
 
 ### Option A — pip (recommended for quick setup)
 
 ```bash
-git clone https://github.com/[your-username]/PDE4B-Inhibitor-Discovery.git
-cd PDE4B-Inhibitor-Discovery
+git clone https://github.com/CodeeSam/Discovery-of-Selective-PDE4B-Inhibitors.git
+cd Discovery-of-Selective-PDE4B-Inhibitors
 pip install -r requirements.txt
 ```
 
 ### Option B — Conda environment
 
 ```bash
-git clone https://github.com/[your-username]/PDE4B-Inhibitor-Discovery.git
-cd PDE4B-Inhibitor-Discovery
+git clone https://github.com/CodeeSam/PDE4B-Inhibitor-Discovery.git
+cd Discovery-of-Selective-PDE4B-Inhibitors
 conda env create -f environment.yml
 conda activate pde4b-env
 ```
@@ -77,11 +55,10 @@ conda activate pde4b-env
 
 1. Clone the repository
 2. Install dependencies (see above)
-3. Download data files into `data/` (see Data Requirements)
-4. Launch Jupyter:
+3. Launch Jupyter:
 
 ```bash
-jupyter notebook PDE4B_ML_Pipeline.ipynb
+jupyter notebook Discovery-of-Selective-PDE4B-Inhibitors.ipynb
 ```
 
 5. Run all cells in order. The first cell will create the required `data/`, `outputs/`, and `models/` directories automatically.
