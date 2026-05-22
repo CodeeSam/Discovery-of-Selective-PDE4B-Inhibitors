@@ -44,7 +44,7 @@ pip install -r requirements.txt
 ### Option B — Conda environment
 
 ```bash
-git clone https://github.com/CodeeSam/PDE4B-Inhibitor-Discovery.git
+git clone https://github.com/CodeeSam/Discovery-of-Selective-PDE4B-Inhibitors.git
 cd Discovery-of-Selective-PDE4B-Inhibitors
 conda env create -f environment.yml
 conda activate pde4b-env
@@ -132,4 +132,4 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE) for de
 
 ## Contact
 
-Corresponding author: [corresponding.author@institution.edu]
+Corresponding author: ayosamoni@gmail.com
