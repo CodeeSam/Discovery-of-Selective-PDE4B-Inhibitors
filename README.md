@@ -5,6 +5,7 @@
 This repository contains the complete machine learning pipeline for the manuscript:
 
 > **"Computational Design of Novel Selective Phosphodiesterase 4B Inhibitors from Natural Products: An Integrated Machine Learning and Structure-Based Drug Discovery Approach"**
+> doi: https://doi.org/10.64898/2026.05.16.725619
 
 The pipeline integrates ligand-based ML screening with SHAP interpretability to prioritize PDE4B-active natural product candidates from the LOTUS database for downstream structure-based drug design.
 
