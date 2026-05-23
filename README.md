@@ -81,23 +81,6 @@ jupyter notebook PDE4B_ML_Pipeline_Reproducible.ipynb
 
 Structure-based drug design steps (molecular docking, MM-GBSA, MD simulation) were performed using Schrödinger Maestro and are not reproduced in this notebook.
 
----
-
-## Key Results
-
-| Metric | Value |
-|--------|-------|
-| Best model | Random Forest |
-| AUC-ROC (test set) | 0.955 |
-| Accuracy (test set) | 0.891 |
-| MCC (test set) | 0.784 |
-| F1-Score (test set) | 0.891 |
-| LOTUS compounds screened | 276,518 |
-| Predicted strong inhibitors | 119,698 |
-| After drug-likeness filtering | 14,210 |
-
----
-
 ## Dependencies
 
 See `requirements.txt` for the full list. Key packages:
