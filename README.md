@@ -1,4 +1,4 @@
-# Computational Design of Novel Selective PDE4B Inhibitors from Natural Compounds
+# Computational Design of Candidate Selective PDE4B Inhibitors from Natural Compounds
 
 ## Overview
 
