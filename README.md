@@ -95,12 +95,5 @@ See `requirements.txt` for the full list. Key packages:
 ---
 
 ```
-
----
-
-## License
-
-This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
-
 ---
 ## Contact: ayosamoni@gmail.com
